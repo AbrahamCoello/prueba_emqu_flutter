@@ -1,16 +1,31 @@
-# prueba_emqu
+# Pasos para clonar y compilar el proyecto
 
-A new Flutter project.
+1. Descargar e instalar Git en tu computadora si no lo has hecho ya.
+2. Instalar [Flutter](https://docs.flutter.dev/get-started/install) si no lo has hecho ya.
+3. Abre tu terminal y navega hasta el directorio donde deseas clonar el repositorio.
+4. Copia la URL del repositorio de GitHub.
+5. Ejecuta el siguiente comando en la terminal para clonar el repositorio:
 
-## Getting Started
+```
+git clone <URL del repositorio>
+```
 
-This project is a starting point for a Flutter application.
+6. Navega al directorio del proyecto:
 
-A few resources to get you started if this is your first Flutter project:
+```
+cd <nombre del proyecto>
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+7. Ejecuta el siguiente comando para instalar las dependencias del proyecto:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```
+flutter pub get
+```
+
+8. Finalmente, compila el proyecto y ejecútalo en un simulador o dispositivo conectado:
+
+```
+flutter run
+```
+
+Para obtener ayuda para comenzar con el desarrollo de Flutter, consulte la [documentación en línea](https://docs.flutter.dev/), que ofrece tutoriales, muestras, orientación sobre el desarrollo móvil y una referencia completa de la API.
